@@ -12,3 +12,9 @@ function addElementToBeginningOfArray(array, element) {
   newArray.unshift("foo", 1);
   return newArray;
 }
+
+function destructivelyAddElementToBeginningOfArray(array, element) {
+  var newArray = []
+  newArray.unshift("foo", 1);
+  return newArray;
+}
