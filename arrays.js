@@ -12,4 +12,3 @@ function addElementToBeginningOfArray(array, element) {
   newArray.unshift("element0");
   return newArray;
 }
-    
