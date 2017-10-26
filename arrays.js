@@ -15,6 +15,6 @@ function addElementToBeginningOfArray(array, element) {
 
 function addElementToEndOfArray(array, element) {
   var array = []
-  array.push("foo", 1)
+  ["foo", 1...array]
   return array;
 }
